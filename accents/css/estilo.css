@@ -1,3 +1,4 @@
+@import url(cartao.css/);
 * {
 font-size: 16px;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -18,11 +19,11 @@ header{
     padding: 0.5rem;
     align-items: center;
     align-content: center;
-    background-color: aqua;
-    color: #0c0c0c;
+    background-color: rgb(23, 24, 24);
+    color: #ffffff;
 }
 .logo {
-    /* border: 0.3rem solid rgb(255, 0, 149); */
+    border: 0.1rem solid rgb(255, 0, 149);
     background-color: pink;
     width: 1rem;
     height: 1rem;
@@ -32,18 +33,20 @@ header{
     align-items: center;
     align-content: center;
     border-radius: 100%;
-    
+    color:#eee;
+    font-weight: bold;
+    margin-right: 0.7rem;
 }
 .titulo{
-    border: 0.3rem solid black;
+    /* border: 0.3rem solid black; */
 
 }
 section{
-    border: 0.3rem solid blue;
-    display: flex;
+    /* border: 0.3rem solid blue; */
+    display: 1;
 }
 footer{
-    border: 0.3rem solid green;
+    /* border: 0.3rem solid green; */
     width: 4rem;
     padding: 0.5rem;
     background-color: aquamarine;
@@ -54,25 +57,34 @@ nav{
     width: 10rem;
     background-color: #eee;
     padding: 0.5rem;
+    height: 100vh;
 }
 main{
     border: 0.3rem solid purple;
     display: flex;
     padding: 0.5rem;
-    /* flex: 1; */
+    flex: 1;
     /* height: 30rem; */
-    
-    box-shadow: 0.6rem 0.1rem .3rem;
+    width: 35rem;
+    box-shadow: 0.5rem 0.1rem .3rem;
    
     
 }
 img{
-    width: 60rem;
-    height:30rem;
+    width: 30rem;
+    height:20rem;
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
    
 
+}
+.container{
+flex: 1;
+display: flex;
+padding: 1rem;
+gap: 0.8rem;
+justify-content: center;
+flex-wrap:wrap ;
 }
