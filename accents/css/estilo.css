@@ -87,3 +87,10 @@ footer {
     background-color: aquamarine;
     color: #242222;
 }
+
+.grade-de-cores{
+    display:flex; 
+    flex-wrap: wrap; /*passa pra linha de baixo se n couber*/
+    gap: 1.5rem; /*o espaço entre os cartoes*/
+    justify-content: flex-start;
+}
