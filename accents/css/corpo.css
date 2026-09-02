@@ -9,6 +9,7 @@ nav {
     width: 12rem;
     background-color: #eee;
     padding: 1rem;
+    border: solid .1rem blue;
     /* height: 49vh; */
    
 }
