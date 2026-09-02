@@ -1,49 +1,52 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="accents/css/estilo.css">
+    <script src="https://kit.fontawesome.com/bf21730263.js" crossorigin="anonymous"></script>
     <title>Meu Site</title>
 </head>
-<body>
 
+
+<body>
     <header>
         <div class="logo">L</div>
         <h1 class="titulo">C_News</h1>
+        <div class="menu-hamburguer">
+            <i class="fa-solid fa-bars"></i>
+        </div>
     </header>
 
     <section class="conteudo-principal">
         <nav>
-            Menu Lateral
-            
+            Menu Lateral            
         </nav>
-
-        <main>
+        <main id="Noticias" class= "container">
             <div class="grade-de-cartoes">
 
-            <!--Transporte cartao 1-->
+            <!-- cartao 1-->
             <div class="cartao">
                 <img class="imagem-do-cartao" src="accents/img/urbano.png" 
-                    alt="Cartão de transporte"
-                >
+                    alt="Cartão de transporte" >
+                 <!-- <section class="corpo-do-cartao"></section> -->
 
-                <div class="corpo-do-cartao">
+                <section class="corpo-do-cartao">
                     <h2>Modalidade Urbana</h2>
-
                     <p class="classificacao">
                         <span class="categoria-da-noticia">Transporte</span>
                         <time class="data-da-noticia" datetime="2026-08-25">25/08/2026</time>
                     </p>
                     <!--Botao-->  
                     <button type="button" class="botao-ok">OK</button>                                       
-
                     <p class="descricao-da-noticia">
                         Prefeitura lança um novo plano de mobilidade urbana.
                     </p>
+                    <p class="autor-da-noticia">Lucas Silva</p>
 
                     <a href="#" class="botao-do-cartao">Leia mais</a>
-                </div>
+                </section>
             </div>
 
             <!--Cartao 2-->
@@ -52,7 +55,7 @@
                     alt="Evento Gastronomico"
                 >
 
-                <div class="corpo-do-cartao">
+                <section class="corpo-do-cartao">
                     <h2>Gastronomia em BH</h2>
 
                     <p class="classificacao">
@@ -65,9 +68,10 @@
                     <p class="descricao-da-noticia">
                         Gastronomia mineira recebe prêmio internacional.
                     </p>
+                    <p class="autor-da-noticia">Henrique Araujo</p>
 
                     <a href="#" class="botao-do-cartao">Leia mais</a>
-                </div>
+                </section>
             </div>
             <!--Cartao 3-->
             <div class="cartao">
@@ -75,7 +79,7 @@
                     alt="Tecnologia 6G"
                 >
 
-                <div class="corpo-do-cartao">
+                <section class="corpo-do-cartao">
                     <h2>Tecnologia 6G</h2>
 
                     <p class="classificacao">
@@ -88,9 +92,10 @@
                     <p class="descricao-da-noticia">
                        A tecnologia 6G é a proxima geração de redes móveis.
                     </p>
+                    <p class="autor-da-noticia">Guilherme Azevedo</p>
 
                     <a href="#" class="botao-do-cartao">Leia mais</a>
-                </div>
+                </section>
             </div>
             <!--Cartao 4-->
               <div class="cartao">
@@ -98,7 +103,7 @@
                     alt="Tecnologia 6G"
                 >
 
-                <div class="corpo-do-cartao">
+                <section class="corpo-do-cartao">
                     <h2>Festival de Música</h2>
 
                     <p class="classificacao">
@@ -112,14 +117,15 @@
                        Belo Horizonte tem várias festivais de música, como Festival planeta Brasil que é o maior da cidade,
                        e a Virada Cultural, um evento gratuito de 24 hrs focado em diversidade artística.
                     </p>
+                    <p class="autor-da-noticia">Weslley Henrique</p>
 
                     <a href="#" class="botao-do-cartao">Leia mais</a>
-                </div>
+                </section>
             </div>
 
         </div>
         </main>
     </section>
-
+ <footer>&Copy</footer>
 </body>
 </html>
