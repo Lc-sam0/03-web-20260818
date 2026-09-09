@@ -73,6 +73,21 @@
     cursor: pointer; /* Transforma o ponteiro do mouse em uma mãozinha */
     transition: background-color 0.2s, transform 0.1s;
 }
+.botao-do-cartao{
+        align-self: stretch;
+    padding: 0.3rem 0.8rem;
+    background-color: #030303;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    font-weight: bold;
+    cursor: pointer; /* Transforma o ponteiro do mouse em uma mãozinha */
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+.botao-do-cartao:hover{
+    background-color: red;
+}
 
 /* Cor ao passar o mouse por cima */
 .botao-ok:hover {
