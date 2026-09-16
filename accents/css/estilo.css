@@ -3,7 +3,7 @@
 @import url("corpo.css");
 @import url("rodape.css");
 @import url("menulateral.css");
-
+@import url("responsivo.css");
 
 * {
     font-size: 16px;
@@ -32,10 +32,10 @@ main {
     /* flex-direction: column; */
 }
 
-img {
+/* img{ */
     /* width: 40rem; */
     /* height: 20rem; */
-}
+/* } */
 
 
 .grade-de-cartoes{
