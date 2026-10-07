@@ -40,3 +40,6 @@ li{
     opacity: 0;
     transition: opacity 0.3rem ease-in;
 }
+.Menu-oculto{
+    display: none;
+}
