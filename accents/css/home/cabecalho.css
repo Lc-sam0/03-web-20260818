@@ -32,6 +32,8 @@ header {
     flex: 1;
 }
 
+
+
 .menu-hamburguer{
     border-radius: 100%;
     width: 1rem;
@@ -56,3 +58,6 @@ header {
 .menu-hamburguer :hover{
     color: rgb(16, 255, 7);
 }
+
+
+
