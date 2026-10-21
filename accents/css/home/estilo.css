@@ -1,74 +1,74 @@
 @import url("cabecalho.css");
-@import url("cartao.css");
 @import url("corpo.css");
+@import url("cartao.css");
 @import url("rodape.css");
 @import url("menulateral.css");
-@import url("responsivo.css");
-@import url("painel.css");
-@import url("");
+@import url("responsividade.css");
 
-* {
+
+* { /* asterisco é um seletor universal (aplica regras de estilo a todos os elementos da página) */
     font-size: 16px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0rem;
+    padding: 0rem;
 }
 
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: #eee;
-    color: black;
 }
 
-main {
-    border: 0.3rem solid rgb(197, 197, 197);
+header {
+    height: 4rem;
     display: flex;
-    padding: 1rem;
-    flex: 1;
-    /* width: 35rem; */
-    /* box-shadow: 0.5rem 0.1rem 0.3rem; */
-    /* margin-top: 0; */
-    align-items: flex-start;
-    /* justify-content: space-between; */
-    /* flex-direction: column; */
-}
-
-/* img{ */
-    /* width: 40rem; */
-    /* height: 20rem; */
-/* } */
-
-
-.grade-de-cartoes{
-    display:flex; 
-    flex-wrap: wrap; /*passa pra linha de baixo se n couber*/
-    gap: 1.5rem; /*o espaço entre os cartoes*/
-    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    padding: .5rem;
+    background-color: #252323;
+    color: #eee;
 }
 
 .logo {
-    border: 0.1rem solid rgb(255, 0, 149);
-    background-color: rgb(221, 8, 43);
-    width: 2rem;
-    height: 2rem;
-    /* padding: 0.7rem; */
+    border: .1rem blue solid;
+    background-color: blue;
+    color: #eee;
+    font-weight: bold;
+    border-radius: 100%;
+    width: 1rem;
+    height: 1rem;
+    padding: .7rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 100%;
-    color: #eee;
-    font-weight: bold;
-    margin-right: 0.7rem;
-    padding: .7rem;
     align-content: center;
-    margin-right:.7rem ;
+    margin-right: .7rem;
 }
 
-
-.titulo {
-    margin: 0;
+section {
+    /* border: .1rem purple solid; */
+    display: flex;
     flex: 1;
+}
+
+nav {
+    width: 10rem;
+    background-color: #eee;
+    padding: .5rem;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    padding: 1rem;
+    flex-wrap: wrap;
+    gap: .8rem;
+    justify-content: left
+}
+
+footer {
+    height: 4rem;
+    padding: .5rem;
+    background-color: #252323;
+    color: #eee;
 }

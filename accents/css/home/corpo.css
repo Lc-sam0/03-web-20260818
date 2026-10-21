@@ -1,23 +1,26 @@
-section {
+body {
+    min-height: 100vh;
     display: flex;
-    flex: 1;
-    
+    flex-direction: column;
 }
 
 nav {
-    /* border: 0.3rem solid gray; */
-    width: 12rem;
+    width: 10rem;
     background-color: #eee;
-    padding: 1rem;
-    border: solid .2rem #ccc;
-    /* height: 49vh; */
-   
+    padding: .5rem;
 }
-.container {
-    flex: 1;
+
+section {
+    /* border: .2rem solid blue; */
     display: flex;
+    flex: 1;
+}
+
+.container {
+    display: flex;
+    flex: 1;
     padding: 1rem;
-    gap: 0.8rem;
-    justify-content: center;
     flex-wrap: wrap;
+    gap: .8rem;
+    justify-content: left;
 }

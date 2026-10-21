@@ -1,27 +1,20 @@
-@import url("painel.css");
 @import url("cabecalho.css");
+@import url("painel.css");
 
+* {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0rem;
+    padding:0rem;
+    box-sizing: border-box;
 
-.logo {
-    border: 0.1rem solid rgb(255, 0, 149);
-    background-color: rgb(221, 8, 43);
-    width: 2rem;
-    height: 2rem;
-    /* padding: 0.7rem; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 100%;
-    color: #eee;
-    font-weight: bold;
-    margin-right: 0.7rem;
-    padding: .7rem;
-    align-content: center;
-    margin-right:.7rem ;
 }
 
 
-.titulo {
-    margin: 0;
-    flex: 1;
+body {
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+background-color: #eee;
+color: #5e5e5e
 }

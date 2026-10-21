@@ -5,185 +5,156 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="accents/css/home/estilo.css">
-    <script src="https://kit.fontawesome.com/bf21730263.js" crossorigin="anonymous"></script>
-    <script src="accents/js/menu_hamburguer.js"></script>
+    <script src="https://kit.fontawesome.com/db00d7d39c.js" crossorigin="anonymous"></script>
+    <script src="./accents/js/menu_hamburguer.js"></script>
     <title>Meu Site</title>
 </head>
 
-
 <body>
     <header>
-        <div class="logo">L</div>
-        <h1 class="titulo">LC_News</h1>
+        <div id="logoDoSite" class="logo">L</div>
+        <h1 class="titulo">C_News</h1>
         <div class="menu-hamburguer" onclick="alternarVisualizacaoDoMenuLateral()">
-            <i class="fa-solid fa-bars"></i>
+            <i id="icone" class="fa-solid fa-bars"></i>
         </div>
     </header>
 
-    <section class="conteudo-principal">
-        <nav> 
-           <ul claas="menu-lateral">
-            <li>
-                <a href="#">
-                    <div class="opcao">
-                        <div class="icone-inicial">
-                            <i class="fa-solid fa-newspaper"></i>
+    <section>
+        <nav>
+            <span>Menu Lateral</span>
+            <ul class="menu-lateral">
+                <li>
+                    <a href="#">
+                        <div class="opcao">
+                            <div class="icone-inicial">
+                                <i class="fa-solid fa-newspaper"></i>
+                            </div>
+                            <div class="rotulo">Noticia</div>
+                            <div class="icone-final">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
                         </div>
-                        <div class="rotulo">Noticia</div>
-                        <div class="icone-final">
-                            <i class="fa-solid fa-chevron-right"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="opcao">
+                            <div class="icone-inicial">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="rotulo">Mensagem</div>
+                            <div class="icone-final">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
                         </div>
-                    </div>
-                </a>
-            </li>
-            <li>
-                 <a href="#">
-                    <div class="opcao">
-                        <div class="icone-inicial">
-                            <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="opcao">
+                            <div class="icone-inicial">
+                                <i class="fa-solid fa-user"></i>
+                            </div>
+                            <div class="rotulo">Perfil</div>
+                            <div class="icone-final">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
                         </div>
-                        <div class="rotulo">Mensagem</div>
-                        <div class="icone-final">
-                            <i class="fa-solid fa-chevron-right"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="opcao">
+                            <div class="icone-inicial">
+                                <i class="fa-solid fa-right-from-bracket"></i>
+                            </div>
+                            <div class="rotulo">Sair</div>
+                            <div class="icone-final">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
                         </div>
-                    </div>
-                </a>
-            </li>
-            <li>
-                 <a href="#">
-                    <div class="opcao">
-                        <div class="icone-inicial">
-                            <i class="fa-solid fa-user"></i>
-                        </div>
-                        <div class="rotulo">Perfil</div>
-                        <div class="icone-final">
-                            <i class="fa-solid fa-chevron-right"></i>
-                        </div>
-                    </div>
-                </a>
-            </li>
-            <li> <a href="#">
-                    <div class="opcao">
-                        <div class="icone-inicial">
-                           <i class="fa-solid fa-arrow-right-from-bracket"></i>
-                        </div>
-                        <div class="rotulo">Sair</div>
-                        <div class="icone-final">
-                            <i class="fa-solid fa-chevron-right"></i>
-                        </div>
-                    </div>
-                </a>
-            </li>
-           </ul>           
+                    </a>
+                </li>
+            </ul>
         </nav>
-        <main id="Noticias" class= "container">
-            <div class="grade-de-cartoes">
 
-            <!-- cartao 1-->
+        <main id="noticias" class="container">
             <div class="cartao">
-                <img class="imagem-do-cartao" src="accents/img/urbano.png" 
-                    alt="Cartão de transporte" >
-                 <!-- <section class="corpo-do-cartao"></section> -->
-
+                <img class="imagem-do-cartao" src="accents/img/urbano.png">
                 <section class="corpo-do-cartao">
-                    <h2>Modalidade Urbana</h2>
+                    <h1 class="titulo-do-cartao">Mobilidade urbana</h1>
                     <p class="classificacao">
                         <span class="categoria-da-noticia">Transporte</span>
-                        <time class="data-da-noticia" datetime="2026-08-25">25/08/2026</time>
+                        <span class="data-da-noticia">05/03/2026</span>
                     </p>
-                    <!--Botao-->  
-                    <button type="button" class="botao-ok">OK</button>  
-                                                         
                     <p class="descricao-da-noticia">
-                        Prefeitura lança um novo plano de mobilidade urbana.
+                        Prefeitura Lança Novo Plano de Mobilidade Urbana.
                     </p>
-                    <p class="autor-da-noticia">Lucas Silva</p>
-
-                    <a href="#" class="botao-do-cartao">Leia mais
-                    
-                    </a>
-                     
-                       
+                    <p class="autor-da-noticia">Ana Maria Pires</p>
                 </section>
+
+                <a href="#" class="botao-do-cartao">Leia mais
+                    <i class="fa-solid fa-chevron-right"></i>
+                </a>
             </div>
 
-            <!--Cartao 2-->
             <div class="cartao">
-                <img class="imagem-do-cartao" src="accents/img/gastronomia.png" 
-                    alt="Evento Gastronomico"
-                >
-
+                <img class="imagem-do-cartao" src="accents/img/tecnologia.png">
                 <section class="corpo-do-cartao">
-                    <h2>Gastronomia em BH</h2>
-
-                    <p class="classificacao">
-                        <span class="categoria-da-noticia">Gastronomia</span>
-                        <time class="data-da-noticia" datetime="2026-08-25">25/08/2026</time>
-                    </p>
-                    <!--Botao-->  
-                    <button type="button" class="botao-ok">OK</button>                                       
-
-                    <p class="descricao-da-noticia">
-                        Gastronomia mineira recebe prêmio internacional.
-                    </p>
-                    <p class="autor-da-noticia">Henrique Araujo</p>
-
-                    <a href="#" class="botao-do-cartao">Leia mais</a>
-                </section>
-            </div>
-            <!--Cartao 3-->
-            <div class="cartao">
-                <img class="imagem-do-cartao" src="accents/img/tecnologia.png" 
-                    alt="Tecnologia 6G"
-                >
-
-                <section class="corpo-do-cartao">
-                    <h2>Tecnologia 6G</h2>
-
+                    <h1 class="titulo-do-cartao">Tecnologia 6G chega ao mercado</h1>
                     <p class="classificacao">
                         <span class="categoria-da-noticia">Tecnologia</span>
-                        <time class="data-da-noticia" datetime="2026-08-25">25/08/2026</time>
+                        <span class="data-da-noticia">05/03/2026</span>
                     </p>
-                    <!--Botao-->  
-                    <button type="button" class="botao-ok">OK</button>                                       
-
                     <p class="descricao-da-noticia">
-                       A tecnologia 6G é a proxima geração de redes móveis.
+                        Tecnologia 6G avança para fase de implementação.
                     </p>
-                    <p class="autor-da-noticia">Guilherme Azevedo</p>
-
-                    <a href="#" class="botao-do-cartao">Leia mais</a>
+                    <p class="autor-da-noticia">Lucas Antonio</p>
                 </section>
+                <a href="#" class="botao-do-cartao">Leia mais
+                    <i class="fa-solid fa-chevron-right"></i>
+                </a>
             </div>
-            <!--Cartao 4-->
-              <div class="cartao">
-                <img class="imagem-do-cartao" src="accents/img/musica.png" 
-                    alt="Tecnologia 6G"
-                >
 
+            <div class="cartao">
+                <img class="imagem-do-cartao" src="accents/img/musica.png">
                 <section class="corpo-do-cartao">
-                    <h2>Festival de Música</h2>
-
+                    <h1 class="titulo-do-cartao">Novo festival de música chega a BH</h1>
                     <p class="classificacao">
-                        <span class="categoria-da-noticia">Cultura </span>
-                        <time class="data-da-noticia" datetime="2026-08-25">25/08/2026</time>
+                        <span class="categoria-da-noticia">Cultura</span>
+                        <span class="data-da-noticia">06/03/2026</span>
                     </p>
-                    <!--Botao-->  
-                    <button type="button" class="botao-ok">OK</button>                                       
-
                     <p class="descricao-da-noticia">
-                       Belo Horizonte tem várias festivais de música, como Festival planeta Brasil que é o maior da cidade,
-                       e a Virada Cultural, um evento gratuito de 24 hrs focado em diversidade artística.
+                        Festival Planeta acontecerá em Julho.
                     </p>
-                    <p class="autor-da-noticia">Weslley Henrique</p>
-
-                    <a href="#" class="botao-do-cartao">Leia mais</a>
+                    <p class="autor-da-noticia">Filipe Morais</p>
                 </section>
+                <a href="#" class="botao-do-cartao">Leia mais
+                    <i class="fa-solid fa-chevron-right"></i>
+                </a>
             </div>
 
-        </div>
+            <div class="cartao">
+                <img class="imagem-do-cartao" src="accents/img/gastronomia.png">
+                <section class="corpo-do-cartao">
+                    <h1 class="titulo-do-cartao">Restaurante mineiro surpreende com inovação</h1>
+                    <p class="classificacao">
+                        <span class="categoria-da-noticia">Gastronomia</span>
+                        <span class="data-da-noticia">06/03/2026</span>
+                    </p>
+                    <p class="descricao-da-noticia">
+                        Restaurante Sabor Mineiro está revolucionando a culinária mineira no centro de BH.
+                    </p>
+                    <p class="autor-da-noticia">Nélio Reis</p>
+                </section>
+                <a href="#" class="botao-do-cartao">Leia mais
+                    <i class="fa-solid fa-chevron-right"></i>
+                </a>
+            </div>
         </main>
     </section>
- <footer> &copy, Meu Site, 2026</footer>
+
+    <footer>&copy; Meu Site, 2026, ❤️</footer>
 </body>
+
 </html>

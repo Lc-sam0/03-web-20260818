@@ -1,13 +1,15 @@
-@media (max-width:576px){
-    .titulo{
+@media (max-widht: 576px) { /* como a pagina vai ficar em uma tela de ate 576px */
+    .titulo {
         opacity: 0;
     }
-}
-nav{
-    display: none;
-}
-main{
-    flex-direction: column;
-    align-items: center; /* ajusta no eixo y */
-    align-content: center; /* ajusta o eixo y pra alinhar */
+
+    nav {
+        display: none;
+    }
+
+    main {
+        flex-direction: column;
+        align-items: center; /* eixo Y */
+        align-content: center; /* deixar o eixo Y alinhado */
+    }
 }
