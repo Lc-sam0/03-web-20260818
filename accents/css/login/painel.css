@@ -83,11 +83,11 @@ button:hover {
 }
 
 .links-auxiliares {
-    display: flex;
-    justify-content: center;
     margin-top: 1.5rem;
     text-align: center;
     font-size: 0.9rem;
+    display: flex;
+    justify-content: center;
     gap: 0.8rem;
 }
 .links-auxiliares a {
